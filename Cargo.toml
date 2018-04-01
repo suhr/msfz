@@ -1,0 +1,17 @@
+[package]
+name = "msfz"
+version = "0.1.0"
+authors = ["Сухарик <suhr@i2pmail.org>"]
+
+[dependencies]
+hound = "*"
+resample = { git = "https://github.com/suhr/resample.git" }
+# num-complex = "*"
+# rustfft = "*"
+# bmp = "*"
+jack = "*"
+rosc = "0.1"
+monochord = "*"
+
+[dependencies.miosc]
+git = "https://github.com/diaschisma/miosc.git"
